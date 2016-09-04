@@ -1,5 +1,5 @@
-CC=clang
-CFLAGS=-O2
+CC=gcc
+CFLAGS=-O3
 DEPS=fargeskrift.h
 
 .PHONY: all clean install
@@ -7,7 +7,7 @@ DEPS=fargeskrift.h
 .SUFFIXES:
 
 
-all: fargedemo fargetest
+all: fargedemo fargetest minefarger
 
 %.o: %.c $(DEPS)
 	$(CC) -c $(CFLAGS) $< -o $@ 
@@ -18,8 +18,11 @@ fargedemo: fargedemo.o fargeskrift.o
 fargetest: fargetest.o fargeskrift.o
 	$(CC) -o fargetest fargetest.o fargeskrift.o
 
+minefarger: minefarger.o fargeskrift.o
+	$(CC) -o minefarger minefarger.o fargeskrift.o
+
 clean:
 	rm -f *.o fargedemo fargetest
 
-install: fargedemo fargetest
-	cp fargedemo fargetest /usr/local/bin/
+install: fargedemo fargetest minefarger
+	cp fargedemo fargetest minefarger  /usr/local/bin/
