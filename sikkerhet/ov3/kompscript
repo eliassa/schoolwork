@@ -1,0 +1,8 @@
+#! /bin/bash
+for fil in `find /home/aukis/Dokumenter/helloworld -atime +6 -size +10k`;
+do
+  gzip -N $fil
+  echo "$fil.gz"
+done
+
+#for fil in `find /home/aukis/Dokumenter/helloworld -name *.gz`; do gzip -d $fil done

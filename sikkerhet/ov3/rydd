@@ -1,0 +1,2 @@
+#! /bin/bash
+find /home/aukis/Dokumenter/test -path "*/jpg*" -prune -o -name "*.jpg" -exec flyttjpg {} \;

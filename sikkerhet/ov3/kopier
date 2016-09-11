@@ -1,0 +1,5 @@
+#! /bin/bash
+for file in `find ~/Dokumenter/test -name "*.txt"`;
+do
+  cp $file "$file.kopi";
+done
