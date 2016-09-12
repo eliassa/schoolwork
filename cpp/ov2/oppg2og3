@@ -1,0 +1,10 @@
+OPPGAVE 2:
+Feilmeldig!  *linje er en peker. det betyr at linje er en inneholder en adresse, og kan 
+ikke overskrives med en teststreng, eller char[].
+
+
+OPPGAVE 3:
+Hva kan gå galt:
+- brukeren kan sende inn en tekst som er større enn 5 karakterer.
+- Hvis teksten ikke inneholder 'e' vil while-løkken aldri bli ferdig. (med mindre den 
+tilfeldigvis finner 'e' en annen plass i minnet). 
