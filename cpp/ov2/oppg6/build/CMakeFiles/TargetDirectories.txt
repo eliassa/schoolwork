@@ -1,3 +1,0 @@
-/home/aukis/Dokumenter/schoolwork/cpp/ov2/oppg6/build/CMakeFiles/edit_cache.dir
-/home/aukis/Dokumenter/schoolwork/cpp/ov2/oppg6/build/CMakeFiles/rebuild_cache.dir
-/home/aukis/Dokumenter/schoolwork/cpp/ov2/oppg6/build/CMakeFiles/oppg6.dir
