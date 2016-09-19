@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg3/main.cpp
+iostream
+-
+string
+-
+vare.h
+/home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg3/vare.h
+
+/home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg3/vare.h
+string
+-
+
