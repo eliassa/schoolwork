@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++1y -Wall -Wextra -Wno-unused-parameter   CMakeFiles/oppg3.dir/main.cpp.o  -o oppg3 -rdynamic 
