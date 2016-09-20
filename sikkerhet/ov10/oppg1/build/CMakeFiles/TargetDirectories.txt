@@ -1,0 +1,3 @@
+/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg1/build/CMakeFiles/edit_cache.dir
+/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg1/build/CMakeFiles/rebuild_cache.dir
+/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg1/build/CMakeFiles/oppg1.dir
