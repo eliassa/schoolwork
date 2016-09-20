@@ -36,4 +36,21 @@ int main() {
     }
   }
   cout<<begynnelsen<<endl;
+  
+  
+  if(setning.find("hallo") != string::npos){
+    cout << "setning inneholder hallo" << endl;
+  }else{
+    cout << "setning inneholder IKKE hallo" << endl;
+  }
+  
+  
+  size_t pos = setning.find("er", 0);
+  while (pos != string::npos){
+      cout<< "'er' funnet på: " << pos <<endl;
+      pos = setning.find("er", pos+1);
+  }
+  
 }
+
+

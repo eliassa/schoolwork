@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4
+CMAKE_SOURCE_DIR = /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/build
+CMAKE_BINARY_DIR = /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/build/CMakeFiles /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build/CMakeFiles /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named oppg4
+# Target rules for targets named oppg3
 
 # Build rule for target.
-oppg4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 oppg4
-.PHONY : oppg4
+oppg3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 oppg3
+.PHONY : oppg3
 
 # fast build rule for target.
-oppg4/fast:
-	$(MAKE) -f CMakeFiles/oppg4.dir/build.make CMakeFiles/oppg4.dir/build
-.PHONY : oppg4/fast
+oppg3/fast:
+	$(MAKE) -f CMakeFiles/oppg3.dir/build.make CMakeFiles/oppg3.dir/build
+.PHONY : oppg3/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/oppg4.dir/build.make CMakeFiles/oppg4.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/oppg3.dir/build.make CMakeFiles/oppg3.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/oppg4.dir/build.make CMakeFiles/oppg4.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/oppg3.dir/build.make CMakeFiles/oppg3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/oppg4.dir/build.make CMakeFiles/oppg4.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/oppg3.dir/build.make CMakeFiles/oppg3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... oppg4"
+	@echo "... rebuild_cache"
+	@echo "... oppg3"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

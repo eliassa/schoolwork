@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/main.cpp
-iostream
+/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/main.cpp
+boost/multiprecision/cpp_int.hpp
 -
-string
+iostream
 -
 

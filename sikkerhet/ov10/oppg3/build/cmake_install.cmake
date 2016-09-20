@@ -1,4 +1,4 @@
-# Install script for directory: /home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4
+# Install script for directory: /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aukis/Dokumenter/schoolwork/cpp/ov3/oppg4/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
