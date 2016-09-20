@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/build",
-  "command": "/usr/bin/c++      -std=c++1y -Wall -Wextra -Wno-unused-parameter   -o CMakeFiles/oppg3.dir/main.cpp.o -c /home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/main.cpp",
-  "file": "/home/aukis/Dokumenter/schoolwork/sikkerhet/ov10/oppg3/main.cpp"
-}
-]
