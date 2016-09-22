@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>280</y>
+      <x>430</x>
+      <y>360</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -16,8 +16,8 @@ ISP</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>300</x>
-      <y>360</y>
+      <x>430</x>
+      <y>440</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -28,19 +28,19 @@ ISP</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>290</y>
+      <x>530</x>
+      <y>370</y>
       <w>200</w>
-      <h>70</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;180.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;180.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>270</y>
+      <x>710</x>
+      <y>330</y>
       <w>80</w>
       <h>110</h>
     </coordinates>
@@ -51,183 +51,100 @@ Router</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>330</y>
+      <x>530</x>
+      <y>390</y>
       <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;80.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>370</y>
+      <w>80</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lw=2
+SW</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>830</x>
+      <y>510</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+sw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>940</x>
+      <y>510</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+sw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>510</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+sw</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>540</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;90.0;30.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>630</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>540</y>
+      <w>100</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;60.0;180.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;80.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>780</x>
-      <y>320</y>
-      <w>120</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lw=2
-VLAN SW
-
-nettverk:</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>780</x>
-      <y>380</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-1</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>820</x>
-      <y>380</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-2</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>860</x>
-      <y>380</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>680</x>
-      <y>390</y>
-      <w>120</w>
-      <h>130</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;110.0;100.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>670</x>
-      <y>500</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>620</x>
-      <y>390</y>
-      <w>180</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;80.0;160.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>590</x>
-      <y>470</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>390</y>
-      <w>200</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;140.0;180.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>570</x>
-      <y>530</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>560</x>
-      <y>580</y>
-      <w>90</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=.
-Ledelse</panel_attributes>
-    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>770</x>
-      <y>590</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>780</x>
-      <y>410</y>
-      <w>80</w>
-      <h>200</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;180.0;60.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>830</x>
-      <y>410</y>
-      <w>30</w>
-      <h>210</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>820</x>
+      <x>730</x>
       <y>600</y>
       <w>40</w>
       <h>40</h>
@@ -239,8 +156,89 @@ PC</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
+      <x>770</x>
+      <y>540</y>
+      <w>90</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;110.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
       <y>650</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>680</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Ledelse</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>670</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>540</y>
+      <w>70</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;130.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>540</y>
+      <w>40</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>20.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>680</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>730</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -251,8 +249,8 @@ PC</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>950</x>
-      <y>620</y>
+      <x>1080</x>
+      <y>700</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -263,65 +261,65 @@ PC</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>410</y>
-      <w>100</w>
-      <h>230</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>80.0;210.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>880</x>
-      <y>410</y>
-      <w>140</w>
+      <x>1060</x>
+      <y>540</y>
+      <w>50</w>
       <h>180</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>120.0;160.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>980</x>
-      <y>570</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1040</x>
-      <y>590</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lw=2
-PC</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>30.0;160.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>410</y>
-      <w>190</w>
-      <h>200</h>
+      <x>1060</x>
+      <y>540</y>
+      <w>90</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>170.0;180.0;10.0;10.0</additional_attributes>
+    <additional_attributes>70.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1110</x>
+      <y>650</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>670</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lw=2
+PC</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1010</x>
-      <y>640</y>
+      <x>1060</x>
+      <y>540</y>
+      <w>140</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>120.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1140</x>
+      <y>720</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -332,19 +330,19 @@ Utvikling</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>330</y>
-      <w>100</w>
-      <h>40</h>
+      <x>830</x>
+      <y>390</y>
+      <w>110</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;80.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>660</x>
-      <y>270</y>
+      <x>790</x>
+      <y>330</y>
       <w>50</w>
       <h>110</h>
     </coordinates>
@@ -356,19 +354,19 @@ Mur</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>360</y>
+      <x>490</x>
+      <y>420</y>
       <w>240</w>
-      <h>190</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>220.0;10.0;10.0;170.0</additional_attributes>
+    <additional_attributes>220.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>310</x>
-      <y>530</y>
+      <x>440</x>
+      <y>610</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -379,8 +377,8 @@ SW</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>220</x>
-      <y>550</y>
+      <x>350</x>
+      <y>630</y>
       <w>110</w>
       <h>70</h>
     </coordinates>
@@ -390,8 +388,8 @@ SW</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>310</x>
-      <y>560</y>
+      <x>440</x>
+      <y>640</y>
       <w>50</w>
       <h>110</h>
     </coordinates>
@@ -401,8 +399,8 @@ SW</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>600</y>
+      <x>290</x>
+      <y>680</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -414,8 +412,8 @@ server</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
-      <y>650</y>
+      <x>410</x>
+      <y>730</y>
       <w>110</w>
       <h>40</h>
     </coordinates>
@@ -427,13 +425,203 @@ Server</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>520</y>
+      <x>340</x>
+      <y>600</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=.
 DMZ</panel_attributes>
     <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>420</y>
+      <w>110</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;90.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>950</x>
+      <y>420</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>980</x>
+      <y>420</y>
+      <w>90</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>70.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>520</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>860</x>
+      <y>520</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>20</x>
+      <y>70</y>
+      <w>210</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>1: Kriminelle
+Systemet kan utsettes for 
+angrep utenifra. Et 
+eksempel er 'ransomware',
+der dataene på en server 
+blir kryptert, og det kreves
+løsepenger for å få dem
+tilbake. Et mottiltak mot
+dette er å lagre backup av 
+all data på serveren.
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>270</x>
+      <y>70</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>2:utro tjenere
+en utro tjener rammer
+systemet innenifra for å 
+lekke hemmelig informsjon.
+
+et mottiltak mot utro tjenere
+er å være påpasselig med
+hvordan man deler hemmelig
+informasjon innad. 
+
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>530</x>
+      <y>70</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>3:sky
+En nettsky kan enkelt 
+angripes, og selv om dataene
+til en viss grad er kryptert,
+er de ikke umulige å nå for
+hackere. Drifterne av skyen 
+kan også enkelt bruke dataen
+som lagres på skyen
+
+Det viktigste mottiltaket er 
+rett og slett å ikke lagre 
+sensitiv informasjon på sky
+
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>800</x>
+      <y>70</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>4: fremmede makter
+i krigssituajsoner kan mange
+prøve å ramme fiendens
+nettverk og infrastruktur.
+dette kan gjøres ved 
+at datavirus sprer seg på 
+fiendens nettverk for å 
+ødelegge eller spionere.
+
+dette er vanskelig å forsikre
+seg mot, ettersom slike 
+angrep ofte er store 
+prosjekter som det er lagt ned
+mye tid og penger i.
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1050</x>
+      <y>70</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>5. Uhell og inkompetasnse
+Dette omhandler utelukkende
+menneskelig svikt. 
+
+slike feil kan unngås ved
+ommgående opplæring, og 
+ikke minst ved å utvikle
+systemer som ikke tillater 
+menneskelige feil.
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>30</x>
+      <y>350</y>
+      <w>220</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>6. Miljøet
+Alle systemer kan rammes av
+naturkrefter som flom, 
+jordskjelv, lynnedslag osv.
+
+dette kan man forsikre seg
+mot ved å ha flere servere 
+på forskjellige steder i landet/
+verden.
+halign=left</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
