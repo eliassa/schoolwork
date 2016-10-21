@@ -1,0 +1,5 @@
+#! /bin/bash
+
+iptables -F
+#	iptables -A FORWARD -p tcp --deport 80 -i wlp4s0 -o enp5s0 -s 158.38.56.1 -j REJECT
+iptables -A FORWARD -d 81.93.163.115 -j REJECT

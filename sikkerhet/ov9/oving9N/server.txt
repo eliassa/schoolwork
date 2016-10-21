@@ -1,0 +1,11 @@
+Server:
+	129.241.0.200
+Address:	129.241.0.200#53
+
+Non-authoritative answer:
+vg.no	mail exchanger = 10 mx1.schibsted-it.no.
+vg.no	mail exchanger = 10 mx2.schibsted-it.no.
+vg.no	mail exchanger = 5 mx3.schibsted-it.no.
+
+Authoritative answers can be found from:
+

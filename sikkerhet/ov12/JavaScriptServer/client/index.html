@@ -1,0 +1,32 @@
+<html>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/crypto-js/crypto-js.js"></script>
+<body>
+<form id="authenticate">
+  Username:<input id="username" type="text">
+  Password:<input id="password" type="text">
+  <input type="submit">
+</form>
+</body>
+<script>
+
+$("#authenticate").submit(function(event) {
+  event.preventDefault();
+  var salt="www.ntnu.no/tdat3020"+this.username.value;
+  var hash=CryptoJS.PBKDF2(this.password.value, salt, { keySize: 512/32, iterations: 1000 });
+
+
+  $.ajax({
+    type: "POST",
+    url: "/authenticate",
+    contentType: "application/json; charset=utf-8",
+    data: JSON.stringify({username: this.username.value, client_hash: hash.toString()}),
+  }).done((data) => {
+    console.log("success");
+  }).fail((data) => {
+    console.log("error");
+  });
+});
+
+</script>
+</html>
