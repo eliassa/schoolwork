@@ -8,4 +8,6 @@ ov3: Conatins some scripts, check if the file/directory paths ar correct before 
 
 --
 ##C++
+ov1: Using cin and ifstream to read input temperatures.
 ov2: contains a set of exercices involving references and pointers etc.
+
